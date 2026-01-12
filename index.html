@@ -1,11 +1,83 @@
 <!DOCTYPE html>
-<html>
-<body>
+<html lang="en">
+  <head>
+    <!-- Meta-data (not displayed) -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Basic HTML page demonstrating semantic markup and structure">
+    <meta name="keywords" content="HTML, Semantic Markup, SGML, Web Development">
+    <meta name="author" content="David">
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
-<p>My second paragraph.</p>
-<p>My third paragraph.</p>
+    <title>Basic HTML Structure Example</title>
 
-</body>
+    <!-- External CSS would normally be linked here -->
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+  </head>
+
+  <body>
+    <!-- Displayable content goes inside the body -->
+
+    <!-- Heading -->
+    <h1>A Big Important Section</h1>
+
+    <!-- Paragraph -->
+    <p class="intro">
+      This is a short paragraph demonstrating semantic HTML markup.
+    </p>
+
+    <!-- Anchor (link) -->
+    <p>
+      Visit 
+      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+        MDN HTML Documentation
+      </a>
+      to learn more.
+    </p>
+
+    <!-- Section -->
+    <section id="features">
+      <h2>Semantic Markup Examples</h2>
+
+      <!-- Generic container -->
+      <div class="content-group">
+        <p>
+          This content is grouped inside a div container.
+        </p>
+      </div>
+    </section>
+
+    <!-- Lists -->
+    <section>
+      <h2>Lists</h2>
+
+      <!-- Unordered list -->
+      <ul>
+        <li>HTML Structure</li>
+        <li>Semantic Markup</li>
+        <li>SEO Basics</li>
+      </ul>
+
+      <!-- Ordered list -->
+      <ol>
+        <li>Create HTML file</li>
+        <li>Add head and body</li>
+        <li>Write semantic content</li>
+      </ol>
+    </section>
+
+    <!-- Image (self-closing tag) -->
+    <section>
+      <h2>Image Example</h2>
+      <img
+        src="#"
+        alt="cute bunny sitting in the forest"
+        style="width:100%;height:auto;"
+        >
+    </section>
+
+    <!-- Line break (self-closing) -->
+    <br>
+
+    <!-- JavaScript is loaded at the end for better performance -->
+    <script src="script.js"></script>
+  </body>
 </html>
